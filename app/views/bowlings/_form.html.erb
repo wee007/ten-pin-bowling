@@ -1,0 +1,11 @@
+<%= form_for(@bowling, url: calculate_bowlings_path) do |f| %>
+  <div class="field">
+    <%= f.label :scores %><br>
+    <%= f.text_field :scores %>
+    ( separated by whitespace )
+  </div>
+
+  <div class="actions">
+    <%= f.submit 'Calculate' %>
+  </div>
+<% end %>
