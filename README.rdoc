@@ -1,28 +1,21 @@
-== README
+== Ten Pin Bowling
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the first attempt to build a small Rails application to calculate the total score of a ten pin bowling game with given inputs.
 
-Things you may want to cover:
+The calculation of the scores needs some fine-tuning for greater accuracy.
 
-* Ruby version
+=== Ruby version
 
-* System dependencies
+2.1
 
-* Configuration
+=== Rails version
 
-* Database creation
+4.0.4
 
-* Database initialization
+=== How to run the test suite
 
-* How to run the test suite
+bundle exec rspec OR bundle exec rake
 
-* Services (job queues, cache servers, search engines, etc.)
+=== How to run the Rails application
 
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+rails server ( default: localhost:3000 )
